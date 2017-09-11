@@ -11,6 +11,7 @@ import plotly_toolbox as pltly
 
 plotly.tools.set_credentials_file(username='LouisDge', api_key='GhcHOWrYTxpQr8fhFfWj')
 
+# TODO once the dashboard is created: retrieve plots, webpage, texts etc. and only at this moment, generate dashboard
 """
 trace0 = Scatter(
     x=[1, 2, 3, 4],
@@ -119,4 +120,7 @@ my_dboard.insert(box_3, 'left', 2)
 
 # Add the dashboard to my account
 py.dashboard_ops.upload(my_dboard, 'My First Dashboarrd with Python')
+
+
+
 
