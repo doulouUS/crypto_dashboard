@@ -1,3 +1,11 @@
+#
+#   Useful links:
+#       community charts https://plot.ly/
+#
+#
+#
+token_kraken = "0thkdchyt8"
+
 def fileId_from_url(url):
     """Return fileId from a url."""
     index = url.find('~')

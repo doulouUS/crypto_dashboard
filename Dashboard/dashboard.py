@@ -1,5 +1,4 @@
 import plotly
-import plotly.dashboard_objs as dashboard
 import plotly.graph_objs as go
 
 import plotly.plotly as py
@@ -7,6 +6,8 @@ from plotly.graph_objs import *
 import plotly.dashboard_objs as dashboard
 
 import numpy as np
+
+# local repo
 import plotly_toolbox as pltly
 
 plotly.tools.set_credentials_file(username='LouisDge', api_key='GhcHOWrYTxpQr8fhFfWj')
